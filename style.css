@@ -1,0 +1,113 @@
+body{
+    
+}
+
+#header {
+    
+    background: #811538 !important;
+    height: 20rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+    border-bottom: solid 20px #5b0d25;
+   
+}
+
+#header h1 {
+    
+    
+    color: white;
+    direction: rtl;
+    font-size: 300%;
+    margin-right: 5%;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    
+}
+
+
+#header h1:nth-child(1){
+    font-size: 500%;
+}
+
+
+
+.header-background {
+    
+    background-image: url("pattern.png");
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logo-header {
+
+    position: absolute;
+    z-index: 9999;
+    top: 10%;
+    left: 5%;
+    
+}
+
+.logo-header img{
+    height: 300px;
+    filter: drop-shadow(5px 5px 30px rgba(0,0,0,0.5));
+}
+
+.header-title h1{
+    color: #811538;
+    direction: rtl;
+    font-size: 300%;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.row h1{
+    direction: rtl;
+    font-weight: 700;
+}
+
+
+.card-header{
+    text-align: center;
+}
+
+.card-header{
+    background-color: #811538 !important;
+    
+}
+
+.card-header p{
+    color: white;
+}
+
+
+#row{
+    background-color: #5b0d25 !important;
+    margin: 0;
+    
+}
+
+#row p{
+    color: white;
+}
+
+
+.rounded-circle{
+    height: 40px
+}
+
+.col-sm-6{
+    margin-bottom: 2%;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .container {
+     max-width: 90% !important;    
+    }
+}
